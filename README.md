@@ -35,6 +35,8 @@ this is the mapping from DNRTI -> SecureBERT-NER -> My Category Clusters
 
 ## 1.notebooks
 
+Generate env for notebooks is python==3.10 and pip install -r requirements.txt
+
 **1-check_the_data.ipynb**
 
 This Jupyter notebook checks the initial data for a Named Entity Recognition (NER) task. It loads and preprocesses text into words and tags, creates a pandas DataFrame, and analyzes unique tags and token lengths to ensure data quality before further processing.
