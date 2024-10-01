@@ -1,0 +1,13 @@
+# Ignore environment folder
+env/
+
+# macOS specific files
+.DS_Store
+
+# Python cache files
+__pycache__/
+
+# Logs and temporary files
+logs/
+
+
