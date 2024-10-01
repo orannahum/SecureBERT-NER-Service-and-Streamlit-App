@@ -14,12 +14,15 @@ test-ner/
 
 models/
 
+# Ignore project_examples directory
 project_examples/
 
-1-check-the-data.ipynb
-2-cybersecurity-ner-pre-trained-model.ipynb 
-3-train-on-sample-with-labeled-and-tokenized.ipynb 
-4-train_on_train_data_with_saving_model_and_pipelines.ipynb 
-5-load-model-and-piplines-and-predict.ipynb 6-try-also-on-securebert-cyner.ipynb 
+# Ignore specific Jupyter Notebook files
+.1-check-the-data.ipynb
+.2-cybersecurity-ner-pre-trained-model.ipynb
+.3-train-on-sample-with-labeled-and-tokenized.ipynb
+.4-train_on_train_data_with_saving_model_and_pipelines.ipynb
+.5-load-model-and-piplines-and-predict.ipynb
+.6-try-also-on-securebert-cyner.ipynb
 
 
