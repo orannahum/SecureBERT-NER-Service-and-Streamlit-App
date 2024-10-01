@@ -8,13 +8,13 @@ import os
 import torch
 import transformers
 from transformers import AutoTokenizer, AutoModelForTokenClassification
-from data_processing_transformers import (
+from ner_transformers_and_utilities.data_processing_transformers import (
     DatasetFromListTransformer,
     MapAndTokenizeTransformer,
     ReverseTokenizationTransformer,
 )
 from sklearn.metrics import precision_score, recall_score
-from functions import predict_pre_train_model, calculate_metrics, split_text_to_words_in_sentences
+from ner_transformers_and_utilities.functions import predict_pre_train_model, calculate_metrics, split_text_to_words_in_sentences
 import json
 import time
 import sklearn

@@ -8,8 +8,7 @@ COPY ner_streamlit_app/requirements.txt .
 COPY ner_streamlit_app/app.py .
 
 # Copy the data_processing_transformers.py and functions.py from the parent directory
-COPY data_processing_transformers.py .
-COPY functions.py .
+COPY ner_transformers_and_utilities ./ner_transformers_and_utilities/
 COPY config.json .
 COPY map_tokens.json .
 COPY dnrti_to_category.json .
