@@ -1,44 +1,14 @@
 
-
-|----------------------------------------------------------------------|--------------|
-| DNRTI            | SecureBERT-NER                                    | Category     |
-|----------------------------------------------------------------------|--------------|
-| HackOrg          | APT                                               | APT          |
-| SecTeam          | SECTEAM                                           | SECTEAM      |
-| Idus, Org        | IDTY                                              | IDTY         |
-| OffAct, Way      | ACT, OS, TOOL                                     | ACT_OS_TOOL  |
-| Exp              | VULID, VULNAME                                    | VULID_VULNAME|
-| Tool             | MAL                                               | MAL          |
-| SamFile          | FILE                                              | FILE         |
-| -                | DOM, ENCR, IP, URL, MD5, PROT, EMAIL, SHA1, SHA2  | OTHERS       |
-| Time             | TIME                                              | TIME         |
-| Area             | LOC                                               | LOC          |
-| Purp, Features   | -                                                 | NULL         |
-|----------------------------------------------------------------------|--------------|
-
-Create a NER (named entity recognition) service
-Create an architecture that allows users to send text to an API and receive the
-extracted entities and their class.
-Build a Docker container, as you see fit, to run this HTTP-based service. Ensure that
-you allow offline usage of your work (meaning your work should run entirely
-on-prem).
-Verify the functionality of the Docker container locally.
-Bonus: Web UI Development using Streamlit / React
-Develop a web interface using the Streamlit framework, that includes a file upload
-feature for text files.
-Implement backend functionality to process uploaded files using the NER model.
-Only one file should be processed at a time.
-Generate a results table in the web UI containing two columns: class names and their
-identified entities.
-Deliverables
-A benchmarking report and code for evaluation of SecureBert-NER model based on
+# Sleek ML Engineer Assignment
 
 
+## 0. Mapping
 
-
-
+![alt text](map_image.png)
 
 ## 1.notebooks
+
+
 
 
 ## 2.fastapi API service

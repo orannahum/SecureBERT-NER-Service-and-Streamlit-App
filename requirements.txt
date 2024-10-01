@@ -9,3 +9,4 @@ datasets
 matplotlib
 safetensors
 seaborn
+pandas
