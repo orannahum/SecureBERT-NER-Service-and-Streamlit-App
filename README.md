@@ -59,6 +59,8 @@ we see the recall, precision and latency on test data, we also build pipeline fr
 
 **5-load-model-and-piplines-and-predict.ipynb**
 
+for run this notebook we need run the '4-train_on_train_data_with_saving_model_and_pipelines.ipynb' for generate the models folder with the models.
+
 Here we load the trained SecureBERT-NER trained model with the pipelines.
 we see tprecision, recallshe  metrics and build df with true and pred values, see also the confusion matrix.
 

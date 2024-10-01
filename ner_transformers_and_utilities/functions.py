@@ -210,8 +210,6 @@ def split_text_to_words_in_sentences(text: str) -> List[Dict[str, List[str]]]:
 
 
 
-
-
 def predict_pre_train_model(
     tokenized_input_example: dict, 
     model: torch.nn.Module, 
