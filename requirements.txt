@@ -1,0 +1,11 @@
+scikit-learn==1.5.0
+nltk
+sklearn_crfsuite
+pytest
+coverage
+transformers
+TensorFlow
+datasets
+matplotlib
+safetensors
+seaborn

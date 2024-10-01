@@ -1,0 +1,16 @@
+{
+    "HackOrg": "APT",
+    "SecTeam": "SECTEAM",
+    "Idus": "IDTY",
+    "Org": "IDTY",
+    "OffAct": "ACT_OS_TOOL",
+    "Way": "ACT_OS_TOOL",
+    "Exp": "VULID_VULNAME",
+    "Tool": "MAL",
+    "SamFile": "FILE",
+    "Time": "TIME",
+    "Area": "LOC",
+    "Purp": "NULL",
+    "Features": "NULL",
+    "-": "OTHERS"
+}
