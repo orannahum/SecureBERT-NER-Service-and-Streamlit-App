@@ -27,3 +27,5 @@ project_examples/
 
 
 results/
+
+.venv/
