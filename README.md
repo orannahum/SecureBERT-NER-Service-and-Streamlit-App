@@ -107,7 +107,7 @@ calculate matrix and latency here too
 output:
 {"entities_dnrti":[["B-SamFile","I-Tool","I-SamFile"]],"entities_cat":[["B-FILE","I-MAL","I-FILE"]]}
 
-entities_dnrti are predictions of dnrti tags
+entities_dnrti are predictions of dnrti tags,
 entities_cat are predictions of category mapping
 
 ## 3.streamlit app
@@ -116,9 +116,7 @@ entities_cat are predictions of category mapping
 
 `docker run -p 8501:8501 oranne5/ner-streamlit-app:v3`
 
-#### open browser
-
-go to http://localhost:8501
+open browser and go to http://localhost:8501
 
 
 there are 2 options of fuctions: 
@@ -133,6 +131,6 @@ columns : ['word', 'pred_NER_DNRTI_labels', 'pred_NER_Cat_labels']
 
 Tests on some functions on ner_transformers_and_utilities/functions for activate
 
-go to root path and run : 
+go to root path of the project and run : 
 
 `pytest .`
