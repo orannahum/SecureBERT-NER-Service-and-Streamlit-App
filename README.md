@@ -1,9 +1,8 @@
 
 # General explanation of each of the assignments
 
-**1. Benchmarking Analysis**
+**1. Benchmarking Analysis in the notebooks**
 
-All processes are documented in notebooks. The processes include:
 1. Initial data examination and statistical tests
 2. Running a pre-trained model from the network without training on our data
 3. Creating a Transformers pipeline to save processes as objects
