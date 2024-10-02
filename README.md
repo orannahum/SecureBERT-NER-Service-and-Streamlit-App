@@ -32,7 +32,7 @@
 this is the mapping from DNRTI -> SecureBERT-NER -> My Category Clusters
 ![alt text](map_image.png)
 
-## 1.notebooks
+## 1.Notebooks
 
 Generate env for notebooks is python==3.10 and pip install -r requirements.txt
 
@@ -92,7 +92,7 @@ i do same like '4-train_on_train_data_with_saving_model_and_pipelines.ipynb' but
 
 calculate matrix and latency here too
 
-## 2.fastapi API service
+## 2.Fastapi API service
 
 #### pull image and run locally in 0.0.0.0:80
 `docker run -d -p 80:80 --name ner-fastapi-service oranne5/ner-fastapi-service:v3 uvicorn main:app --host 0.0.0.0 --port 80`
