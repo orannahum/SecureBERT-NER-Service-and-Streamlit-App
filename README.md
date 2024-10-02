@@ -1,5 +1,5 @@
 
-# Sleek ML Engineer Assignment
+# General explanation of each of the assignments
 
 **1. Benchmarking Analysis**
 
@@ -7,17 +7,17 @@ All processes are documented in notebooks. The processes include:
 1. Initial data examination and statistical tests
 2. Running a pre-trained model from the network without training on our data
 3. Creating a Transformers pipeline to save processes as objects
-4. Training two models(SecureBERT-NER & SecureBERT-CyNER") based on my transformation and train.txt and saved them
+4. Training two models(SecureBERT-NER & SecureBERT-CyNER) based on my transformation and train.txt and saved them
 5. Evaluating mapping metrics by category and re-assessing the metrics
 
-**2. Build an NER Service Architecture**
+**2. Build an NER Service using FastAPI**
 
 1. API Setup: You've created a FastAPI service with two endpoints: /ner/ and /cyner/ for extracting entities using different NER models.
 3. Model Loading: The models (SecureBERT NER and CyNER) are dynamically loaded, allowing flexibility for updates. Each model handles tokenization, prediction, and entity extraction.
 4. Dockerize: Package the FastAPI app using a Dockerfile to run it in an isolated environment. Ensure all dependencies and models are bundled for offline functionality.
 5. Testing: Build and test the Docker container locally, and upload the image to my docker hub user: oranne5.
 
-**3. Web UI development using Streamlit** 
+**3. Web UI application development using Streamlit** 
 
 1. User Interaction: Use widgets like file uploaders, buttons, and text inputs.
 2. File Upload: Enable users to upload files via st.file_uploader for processing.
