@@ -1,6 +1,8 @@
 
 # General explanation of each of the assignments
 
+![alt text](image.png)
+
 **1. Benchmarking Analysis in the notebooks**
 
 1. Initial data examination and statistical tests
